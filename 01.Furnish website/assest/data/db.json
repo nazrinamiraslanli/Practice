@@ -1,0 +1,28 @@
+{
+  "cards": [
+    {
+      "name": "Amazing Deals",
+      "details": "Far far away, behind the word mountains, far from the countries Vokalia.",
+      "date": "12/13/2023, 1:04:29 AM",
+      "id": 1
+    },
+    {
+      "name": "Quality Furniture",
+      "details": "Far far away, behind the word mountains, far from the countries Vokalia.",
+      "date": "12/13/2023, 1:04:29 AM",
+      "id": 2
+    },
+    {
+      "name": "TModern Design",
+      "details": "Far far away, behind the word mountains, far from the countries Vokalia.",
+      "date": "12/13/2023, 1:04:29 AM",
+      "id": 3
+    },
+    {
+      "name": "Best Support",
+      "details": "Far far away, behind the word mountains, far from the countries Vokalia.",
+      "date": "12/13/2023, 1:04:29 AM",
+      "id": 4
+    }
+  ]
+}
