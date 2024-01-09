@@ -1,0 +1,30 @@
+header {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem ;
+    position: absolute;
+    gap: 700px;
+    h1 {
+      font-size: 22px;
+      font-weight: 700px;
+    }
+    nav {
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        li {
+          a {
+            color: black;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

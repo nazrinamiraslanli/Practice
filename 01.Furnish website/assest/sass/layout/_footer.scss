@@ -1,0 +1,16 @@
+footer {
+   background-color:
+    RGB(171, 214, 235);
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    h5 {
+      font-size: 16px;
+      color: RGBA(0, 0, 0, 0.4);
+      line-height: 28.8px;
+      font-weight: 400;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.but1 {
+  padding: 15px 25px;
+  border-radius: 50px;
+  color: RGB(38, 122, 164);
+  background-color: white;
+  line-height: 19.5px;
+  font-weight: 600;
+  border: none;
+  &:hover{
+    background-color: RGB(38, 122, 164);
+    color: white;
+  }
+}
