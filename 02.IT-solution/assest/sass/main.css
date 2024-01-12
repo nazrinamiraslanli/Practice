@@ -134,9 +134,14 @@ table {
   max-width: 1200px;
   margin: 0 auto;
 }
+@media only screen and (max-width: 1199px) {
+  .container {
+    padding: 0 5%;
+  }
+}
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 
 .but1 {
@@ -229,7 +234,7 @@ header .header .top {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid grey;
   padding: 16px 0;
 }
 header .header .top h4 {
@@ -285,6 +290,20 @@ header .header .bottom .right .tele h4 a {
   color: RGB(0, 48, 114);
   font-weight: 500;
 }
+@media screen and (max-width: 767px) {
+  header .header .top h4 {
+    font-size: 11px;
+  }
+  header .header .bottom .left nav ul li a {
+    display: none;
+  }
+  header .header .bottom .right .but1 {
+    display: none;
+  }
+  header .header .bottom .right .but1 .tele a {
+    font-size: 11px;
+  }
+}
 
 #footer-top {
   background-color: RGB(0, 48, 114);
@@ -319,6 +338,7 @@ header .header .bottom .right .tele h4 a {
   background-image: url("../img/h1_hero1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 #section1 .section1 {
   height: 100vh;
@@ -348,6 +368,14 @@ header .header .bottom .right .tele h4 a {
   width: 40%;
 }
 
+@media screen and (max-width: 767px) {
+  #section1 .section1 .text-hero h1 {
+    font-size: 48px;
+  }
+  #section1 .section1 .text-hero p {
+    font-size: 18px;
+  }
+}
 #section2 .section2 {
   display: flex;
   flex-direction: column;
@@ -365,20 +393,25 @@ header .header .bottom .right .tele h4 a {
 }
 #section2 .section2 .top h5 {
   color: RGB(49, 110, 194);
+  text-align: center;
 }
 #section2 .section2 .top h1 {
   color: RGB(0, 48, 114);
   font-weight: 500;
   font-size: 40px;
+  text-align: center;
 }
 #section2 .section2 .boxs {
   padding: 40px 0;
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   gap: 20px;
+  flex-wrap: wrap;
 }
 #section2 .section2 .boxs .box {
-  width: 23%;
+  width: 270px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -401,22 +434,32 @@ header .header .bottom .right .tele h4 a {
   display: block;
 }
 
+@media screen and (max-width: 767px) {
+  #section2 .section2 .top h1 {
+    font-size: 31px;
+  }
+  #section2 .section2 .top h5 {
+    font-size: 14px;
+  }
+}
 #section3 .section3 {
-  padding: 70px 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 60px 0;
 }
 #section3 .section3 .box-text {
-  background-color: RGB(0, 48, 114);
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
+  height: 600px;
 }
 #section3 .section3 .box-text .left {
-  padding: 0 100px;
   width: 50%;
+  height: 50%;
+  padding: 60px;
+  background-color: RGB(0, 48, 114);
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -434,12 +477,28 @@ header .header .bottom .right .tele h4 a {
 }
 #section3 .section3 .box-text .right {
   width: 50%;
+  height: 70%;
 }
 #section3 .section3 .box-text .right img {
-  width: 100%;
+  max-width: 100%;
   height: 100%;
 }
 
+@media screen and (max-width: 767px) {
+  #section3 .section3 .box-text {
+    flex-direction: column;
+    width: 70%;
+  }
+  #section3 .section3 .box-text .left {
+    width: 100%;
+  }
+  #section3 .section3 .box-text .right {
+    width: 550px;
+  }
+  #section3 .section3 .box-text .right img {
+    width: 100%;
+  }
+}
 #section4 .section4 {
   display: flex;
   flex-direction: column;
@@ -457,19 +516,22 @@ header .header .bottom .right .tele h4 a {
 }
 #section4 .section4 .top h5 {
   color: RGB(49, 110, 194);
+  text-align: center;
 }
 #section4 .section4 .top h1 {
   color: RGB(0, 48, 114);
   font-weight: 500;
   font-size: 40px;
+  text-align: center;
 }
 #section4 .section4 .box-cards {
   padding: 50px 0;
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 20px;
+  flex-wrap: wrap;
 }
 #section4 .section4 .box-cards .box {
   width: 30%;
@@ -489,4 +551,10 @@ header .header .bottom .right .tele h4 a {
 }
 #section4 .section4 .box-cards .box h5 a {
   color: RGB(0, 48, 114);
+}
+
+@media screen and (max-width: 767px) {
+  #section4 .section4 .box-cards .box {
+    width: 270px;
+  }
 }/*# sourceMappingURL=main.css.map */

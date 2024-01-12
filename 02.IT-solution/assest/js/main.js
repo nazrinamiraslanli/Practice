@@ -1,4 +1,4 @@
-const BASE_URL = " http://localhost:3000";
+const BASE_URL = "http://localhost:3000";
 const cards = document.querySelector(".box-cards");
 async function getData() {
   const res = await axios(`${BASE_URL}/cards`);
@@ -6,7 +6,6 @@ async function getData() {
   drawCard(res.data);
 }
 getData();
-
 function drawCard(arr) {
     cards.innerHTML = "";
     arr.forEach((element) => {

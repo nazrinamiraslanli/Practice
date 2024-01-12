@@ -6,7 +6,7 @@ header {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid grey;
       padding: 16px 0;
       h4 {
         display: flex;
@@ -63,6 +63,36 @@ header {
             a {
               color: RGB(0, 48, 114);
               font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 767px) {
+      .top {
+        h4 {
+          font-size: 11px;
+        }
+      }
+      .bottom {
+        .left {
+          nav {
+            ul {
+              li {
+                a {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+        .right {
+          .but1 {
+            display: none;
+            .tele{
+              a{
+                font-size: 11px;
+              }
             }
           }
         }
