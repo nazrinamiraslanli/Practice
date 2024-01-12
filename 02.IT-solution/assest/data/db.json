@@ -1,0 +1,22 @@
+{
+  "cards": [
+    {
+      "name": "Backup and recovery",
+      "image": "./assest/img/blog4.jpg",
+      "date": "12/13/2023, 1:04:29 AM",
+      "id": 1
+    },
+    {
+      "name": "Backup and recovery",
+      "image": "./assest/img/blog5.jpg",
+      "date": "12/13/2023, 1:04:29 AM",
+      "id": 2
+    },
+    {
+      "name": "Backup and recovery",
+      "image": "./assest/img/blog6.jpg",
+      "date": "12/13/2023, 1:04:29 AM",
+      "id": 3
+    }
+  ]
+}

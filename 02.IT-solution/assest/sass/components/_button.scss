@@ -1,0 +1,77 @@
+.but1 {
+  padding: 15px 25px;
+  border: 2px solid RGB(49, 110, 194);
+  color: RGB(49, 110, 194);
+  font-size: 17px;
+  font-weight: 500;
+  background-color: transparent;
+  &:hover {
+    background-color: RGB(49, 110, 194);
+    color: white;
+  }
+}
+.but2 {
+  padding: 15px 25px;
+  border: 2px solid white;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+  z-index: 3;
+  transition: all 0.7s;
+  &:hover {
+    color: white;
+    border: 2px solid RGB(49, 110, 194);
+    box-shadow: inset 12em 0 0 0 RGB(49, 110, 194);
+  }
+}
+.but3 {
+  padding: 15px 25px;
+  border: 2px solid white;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: transparent;
+  transition: all 0.7s;
+  &:hover {
+    background-color: RGB(49, 110, 194);
+    border: 2px solid RGB(49, 110, 194);
+    color: white;
+  }
+}
+.but4 {
+  padding: 15px 25px;
+  border: 2px solid RGB(49, 110, 194);
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+  z-index: 3;
+  transition: all 0.7s;
+  &:hover {
+    color: white;
+    border: 2px solid RGB(49, 110, 194);
+    box-shadow: inset 12em 0 0 0 RGB(49, 110, 194);
+  }
+}
+.but5 {
+  padding: 10px 20px;
+  border: 2px solid red;
+  width: 150px;
+  color: red;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+  z-index: 3;
+  transition: all 0.7s;
+  &:hover {
+    color: white;
+    box-shadow: inset 12em 0 0 0 rgb(248, 99, 99);
+  }
+}

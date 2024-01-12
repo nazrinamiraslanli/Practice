@@ -1,0 +1,29 @@
+#footer-top {
+  background-color: RGB(0, 48, 114);
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px 0;
+    gap: 20px;
+    h3 {
+      color: white;
+      font-size: 38px;
+      font-weight: 500;
+    }
+    h6 {
+      color: white;
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+}
+#footer-bottom{
+    .footer-bottom{
+        padding: 30px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
