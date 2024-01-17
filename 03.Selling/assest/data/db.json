@@ -1,0 +1,40 @@
+{
+  "cards": [
+    {
+      "image": "./assest/img/model_1_bg.jpg",
+      "name": "Wild West Hoodie",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing",
+      "id": "1"
+    },
+    {
+      "image": "./assest/img/model_2_bg.jpg",
+      "name": "Wild West Hoodie",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing",
+      "id": "2"
+    },
+    {
+      "image": "./assest/img/model_3_bg.jpg",
+      "name": "Wild West Hoodie",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing",
+      "id": "3"
+    },
+    {
+      "image": "./assest/img/model_4_bg.jpg",
+      "name": "Wild West Hoodie",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing",
+      "id": "4"
+    },
+    {
+      "image": "./assest/img/model_5_bg.jpg",
+      "name": "Wild West Hoodie",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing",
+      "id": "5"
+    },
+    {
+      "image": "./assest/img/model_3_bg.jpg",
+      "name": "Wild West Hoodie",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing",
+      "id": "6"
+    }
+  ]
+}
