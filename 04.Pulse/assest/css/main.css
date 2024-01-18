@@ -1,0 +1,341 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none !important;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 0 5%;
+  }
+}
+
+header {
+  position: absolute;
+  z-index: 111;
+  width: 100%;
+  border: 0.5px solid white;
+}
+header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header nav {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding: 0 80px;
+}
+header .header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+header .header nav ul li a {
+  color: white;
+}
+header .header nav ul li a:hover {
+  color: rgb(255, 197, 21);
+}
+header .header h1 {
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+}
+header .header h1 .kub {
+  background: rgb(255, 197, 21);
+  width: 5px;
+  height: 5px;
+}
+header .header h5 {
+  color: rgb(255, 197, 21);
+  display: flex;
+  gap: 5px;
+  text-align: center;
+  justify-content: center;
+}
+header .header h5 i,
+header .header h5 p {
+  color: rgb(255, 255, 255);
+}
+
+#section-carusel .section-carusel .carusel-box {
+  position: relative;
+}
+#section-carusel .section-carusel .carusel-box .carusel-text {
+  position: absolute;
+  bottom: 35%;
+}
+#section-carusel .section-carusel .carusel-box .carusel-text h5 {
+  font-size: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+#section-carusel .section-carusel .carusel-box .carusel-text h5 .kub {
+  background: rgb(255, 197, 21);
+  width: 15px;
+  height: 15px;
+}
+
+#welcome .welcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px 0;
+  gap: 40px;
+}
+#welcome .welcome .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+#welcome .welcome .top i {
+  color: RGB(138, 138, 138);
+  font-size: 65px;
+}
+#welcome .welcome .top h1 {
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#welcome .welcome .top h1 .line {
+  width: 300px;
+  height: 2px;
+  background-color: rgb(255, 197, 21);
+}
+#welcome .welcome .boxs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+#welcome .welcome .boxs .box {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+}
+#welcome .welcome .boxs .box p {
+  font-size: 16px;
+  color: RGB(126, 126, 126);
+  font-weight: 400;
+}
+#welcome .welcome .boxs .box h6 {
+  font-size: 30px;
+}
+#welcome .welcome .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#section-carusel2 .section-carusel2 .box-car {
+  position: relative;
+}
+#section-carusel2 .section-carusel2 .box-car .text-car {
+  position: absolute;
+  bottom: 35%;
+  color: white;
+  display: flex;
+  gap: 20px;
+}
+#section-carusel2 .section-carusel2 .box-car .text-car i {
+  font-size: 90px;
+}
+#section-carusel2 .section-carusel2 .box-car .text-car h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#section-carusel2 .section-carusel2 .box-car .text-car h1 .line {
+  width: 300px;
+  height: 2px;
+  background-color: rgb(255, 197, 21);
+}
+
+#service .service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px 0;
+  gap: 40px;
+}
+#service .service .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+#service .service .top i {
+  color: RGB(138, 138, 138);
+  font-size: 65px;
+}
+#service .service .top h1 {
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#service .service .top h1 .line {
+  width: 300px;
+  height: 2px;
+  background-color: rgb(255, 197, 21);
+}
+#service .service .boxs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+#service .service .boxs .box {
+  width: 23%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+}
+#service .service .boxs .box i {
+  font-size: 50px;
+  color: rgb(196, 152, 18);
+}
+#service .service .boxs .box p {
+  font-size: 16px;
+  color: RGB(126, 126, 126);
+  font-weight: 400;
+}
+#service .service .boxs .box h6 {
+  font-size: 30px;
+}
+
+#menu {
+  background-image: url("../img/menu-bg.jpg");
+}
+#menu .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px 0;
+  gap: 40px;
+}
+#menu .menu .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+#menu .menu .top i {
+  color: white;
+  font-size: 65px;
+}
+#menu .menu .top h1 {
+  color: white;
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#menu .menu .top h1 .line {
+  width: 300px;
+  height: 2px;
+  background-color: rgb(255, 197, 21);
+}
+#menu .menu .bottom nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#menu .menu .bottom nav ul li .but3 {
+  color: white;
+  background: transparent;
+  border: none;
+}
+#menu .menu .bottom nav ul li .but3:hover {
+  color: rgb(255, 197, 21);
+}
+#menu .menu .bottom .boxs-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+#menu .menu .bottom .boxs-cards .box {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+}
+#menu .menu .bottom .boxs-cards .box h1 {
+  color: white;
+  font-size: 22px;
+}
+#menu .menu .bottom .boxs-cards .box .price {
+  display: flex;
+}
+#menu .menu .bottom .boxs-cards .box .price p {
+  font-size: 16px;
+  color: RGB(126, 126, 126);
+}
+#menu .menu .bottom .boxs-cards .box .price h2 {
+  color: white;
+  font-size: 22px;
+}
+
+#section-form {
+  background-color: rgb(120, 128, 128);
+}
+#section-form .section-form {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#section-form .section-form form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+#section-form .section-form form input {
+  padding: 8px 15px;
+  width: 500px;
+  border-radius: 10px;
+}
+#section-form .section-form form .submit {
+  background-color: green;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  width: 100px;
+}/*# sourceMappingURL=main.css.map */
