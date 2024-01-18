@@ -20,7 +20,7 @@ function drawCard(arr) {
     card.innerHTML += `
     <h1>${element.name}</h1>
                 <div class="price">
-                  <p>${element.description}</p>
+                  <p>${element.description}.............</p>
                   <h2>$${element.price}</h2>
                 </div>
     `;

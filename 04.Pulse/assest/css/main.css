@@ -338,4 +338,26 @@ header .header h5 p {
   padding: 10px 15px;
   border-radius: 10px;
   width: 100px;
+}
+
+#section-table .section-table {
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#section-table .section-table .sort {
+  padding: 10px 15px;
+  background-color: rgb(196, 152, 18);
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+}
+#section-table .section-table table,
+#section-table .section-table td,
+#section-table .section-table th {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 10px 15px;
 }/*# sourceMappingURL=main.css.map */

@@ -2,59 +2,52 @@
   "cards": [
     {
       "name": "Scrambled Eggs with ham",
-      "description": "with wild mushrooms and asparagus.....................",
+      "description": "with wild mushrooms and asparagus",
       "price": "9.00",
       "category": "Brunch",
       "id": "1"
     },
     {
       "name": "Scrambled Eggs with ham",
-      "description": "with wild mushrooms and asparagus.....................",
+      "description": "with wild mushrooms and asparagus",
       "price": "9.00",
       "category": "Brunch",
       "id": "2"
     },
     {
       "name": "Eggs Benedict",
-      "description": "with wild mushrooms and asparagus.....................",
+      "description": "with wild mushrooms and asparagus",
       "price": "23.00",
       "category": "Breakfast",
       "id": "3"
     },
     {
       "name": "Eggs Benedict",
-      "description": "with wild mushrooms and asparagus.....................",
+      "description": "with wild mushrooms and asparagus",
       "price": "15.00",
       "category": "Breakfast",
       "id": "4"
     },
     {
       "name": "Eggs Benedict",
-      "description": "with wild mushrooms and asparagus.....................",
+      "description": "with wild mushrooms and asparagus",
       "price": "11.00",
       "category": "Lunch",
       "id": "5"
     },
     {
       "name": "Eggs Benedict",
-      "description": "with wild mushrooms and asparagus.....................",
+      "description": "with wild mushrooms and asparagus",
       "price": "12.00",
       "category": "Lunch",
       "id": "6"
     },
     {
       "name": "Scrambled Eggs in Puff Pastry",
-      "description": "with wild mushrooms and asparagus.....................",
+      "description": "with wild mushrooms and asparagus",
       "price": "12.00",
       "category": "Lunch",
       "id": "8"
-    },
-    {
-      "name": "Eggs Benedict",
-      "description": "with wild mushrooms and asparagus.....................",
-      "price": "15.00",
-      "category": "Dinner",
-      "id": "7"
     },
     {
       "name": "Ratione natus minim ",
@@ -62,6 +55,27 @@
       "price": "42",
       "category": "Et mollit aliqua Il",
       "id": "XQfnRBF"
+    },
+    {
+      "name": "nfjdjbf",
+      "description": "djfdfkd",
+      "price": "6578688",
+      "category": "fjdjhfkldsjfl",
+      "id": "XdGXlO3"
+    },
+    {
+      "name": "Ad nostrud quam arch",
+      "description": "At ea tenetur anim s",
+      "price": "52",
+      "category": "Qui dolorum ipsam qu",
+      "id": "-D-qQ0S"
+    },
+    {
+      "name": "Illum quisquam dolo",
+      "description": "Quia minus officiis ",
+      "price": "100",
+      "category": "Veniam quos quia es",
+      "id": "AACMwMq"
     }
   ]
 }

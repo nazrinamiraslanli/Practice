@@ -308,47 +308,70 @@ header {
             color: white;
             font-size: 22px;
           }
-       .price{
-        display: flex;
-        p {
-            font-size: 16px;
-            color: RGB(126, 126, 126);
-            
-        }
-        h2 {
-          color: white;
-          font-size: 22px;
-        }
-       }
+          .price {
+            display: flex;
+            p {
+              font-size: 16px;
+              color: RGB(126, 126, 126);
+            }
+            h2 {
+              color: white;
+              font-size: 22px;
+            }
+          }
         }
       }
     }
   }
 }
-#section-form{
+#section-form {
   background-color: rgb(120, 128, 128);
-  .section-form{
+  .section-form {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    form{
+    form {
       display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 30px;
+      input {
+        padding: 8px 15px;
+        width: 500px;
+        border-radius: 10px;
+      }
+      .submit {
+        background-color: green;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 10px;
+        width: 100px;
+      }
+    }
+  }
+}
+#section-table {
+  .section-table {
+    padding: 100px 0;
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 30px;
-    input{
-      padding: 8px 15px;
-      width: 500px;
-      border-radius: 10px;
-    }.submit{
-      background-color: green;
-      color: white;
+    .sort {
       padding: 10px 15px;
-      border-radius: 10px;
+      background-color: rgb(196, 152, 18);
       width: 100px;
+      border-radius: 10px;
+      border: none;
     }
+    table,
+    td,
+    th {
+      border: 1px solid;
+      border-collapse: collapse;
+      padding: 10px 15px;
     }
   }
 }
