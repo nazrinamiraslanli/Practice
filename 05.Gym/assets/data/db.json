@@ -1,0 +1,46 @@
+{
+  "cards": [
+    {
+      "name": "Running Clasess",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, mollitia aperiam pariatur repudiandae officiis temporibus tempora distinctio aut repellat provident, officia, cupiditate debitis? Aspernatur sit esse ullam, voluptate aliquam provident.",
+      "price": "444",
+      "img": "./assets/img/c1.jpg",
+      "id": "1"
+    },
+    {
+      "name": "Running Clasess",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, mollitia aperiam pariatur repudiandae officiis temporibus tempora distinctio aut repellat provident, officia, cupiditate debitis? Aspernatur sit esse ullam, voluptate aliquam provident.",
+      "price": "444",
+      "img": "./assets/img/c2.jpg",
+      "id": "2"
+    },
+    {
+      "name": "Running Clasess",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, mollitia aperiam pariatur repudiandae officiis temporibus tempora distinctio aut repellat provident, officia, cupiditate debitis? Aspernatur sit esse ullam, voluptate aliquam provident.",
+      "price": "444",
+      "img": "./assets/img/c3.jpg",
+      "id": "3"
+    },
+    {
+      "name": "Aunning Clasess",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, mollitia aperiam pariatur repudiandae officiis temporibus tempora distinctio aut repellat provident, officia, cupiditate debitis? Aspernatur sit esse ullam, voluptate aliquam provident.",
+      "price": "444",
+      "img": "./assets/img/c4.jpg",
+      "id": "4"
+    },
+    {
+      "name": "Bunning Clasess",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, mollitia aperiam pariatur repudiandae officiis temporibus tempora distinctio aut repellat provident, officia, cupiditate debitis? Aspernatur sit esse ullam, voluptate aliquam provident.",
+      "price": "888",
+      "img": "./assets/img/c5.jpg",
+      "id": "5"
+    },
+    {
+      "name": "Cunning Clasess",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, mollitia aperiam pariatur repudiandae officiis temporibus tempora distinctio aut repellat provident, officia, cupiditate debitis? Aspernatur sit esse ullam, voluptate aliquam provident.",
+      "price": "454",
+      "img": "./assets/img/c6.jpg",
+      "id": "6"
+    }
+  ]
+}

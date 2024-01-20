@@ -7,7 +7,7 @@ let product;
 let copyProduct;
 async function getData() {
   const res = await axios(`${BASE_URL}/cards`);
-  console.log(res.data);
+  // console.log(res.data);
   product = res.data;
   copyProduct = [...res.data];
   drawTable(res.data);
@@ -62,12 +62,16 @@ sort.addEventListener("click", function () {
   let sorted;
   if (sort.innerText === "asc") {
     sort.innerText = "dec";
-    sorted = product.sort((a, b) => a.id - b.id);
+    sorted = product.sort((a, b) => a.name.toLocaleLowerCase().localeCompare(b.name.toLocaleLowerCase()));
   } else if (sort.innerText === "dec") {
     sort.innerText = "asc";
-    sorted = product.sort((a, b) => b.id - a.id);
+    sorted = product.sort((a, b) =>b.name.toLocaleLowerCase().localeCompare(a.name.toLocaleLowerCase()));
   } else if (sort.innerText === "asc") {
     sorted = copyProduct;
   }
   drawTable(sorted);
 });
+// search.addEventListener("input", function (e) {
+//   // console.log(e.target.value);
+//   getData(`name/${e.target.value}`);
+// });
