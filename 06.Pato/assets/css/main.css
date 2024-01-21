@@ -50,7 +50,8 @@ header .header nav ul li a:hover {
 }
 #section-carousel .section-carousel .carusel-box .carusel-text {
   position: absolute;
-  bottom: 35%;
+  bottom: 150px;
+  z-index: 11;
 }
 #section-carousel .section-carousel .carusel-box .carusel-text h3 {
   color: white;
@@ -385,6 +386,9 @@ footer .container .footer .boxx .text p {
 footer .container .footer .boxx .text p a {
   color: red;
 }
+footer .container .footer .boxx .text span {
+  color: RGB(102, 102, 102);
+}
 footer .container .footer .boxx .textt {
   width: 100%;
 }
@@ -395,11 +399,14 @@ footer .container .footer .boxx .images {
   flex-wrap: wrap;
 }
 footer .container .footer .boxx .images img {
-  width: 60px;
+  width: 80px;
 }
 @media screen and (max-width: 767px) {
   footer .container .footer .boxx {
     width: 47%;
+  }
+  footer .container .footer .boxx .images img {
+    width: 60px;
   }
 }
 

@@ -56,9 +56,11 @@ header {
   .section-carousel {
     .carusel-box {
       position: relative;
+
       .carusel-text {
         position: absolute;
-        bottom: 35%;
+        bottom: 150px;
+        z-index: 11;
         h3 {
           color: white;
           font-size: 63px;
@@ -84,6 +86,13 @@ header {
         }
       }
     }
+    // @media screen and (max-width:767px){
+    //   .carusel-box{
+    //     .carusel-text{
+
+    //     }
+    //   }
+    // }
   }
 }
 #section-restoran {
@@ -399,6 +408,9 @@ footer {
               color: red;
             }
           }
+          span {
+            color: RGB(102, 102, 102);
+          }
         }
         .textt {
           width: 100%;
@@ -409,13 +421,18 @@ footer {
           gap: 10px;
           flex-wrap: wrap;
           img {
-            width: 60px;
+            width: 80px;
           }
         }
       }
       @media screen and (max-width: 767px) {
         .boxx {
           width: 47%;
+          .images {
+            img {
+              width: 60px;
+            }
+          }
         }
       }
     }
