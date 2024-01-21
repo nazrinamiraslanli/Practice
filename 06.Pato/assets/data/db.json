@@ -1,0 +1,25 @@
+{
+  "cards": [
+    {
+      "name": "ROMANTIC RESTAURANT",
+      "img": "./assets/img/intro-01.jpg",
+      "des": "Phasellus lorem enim, luctus ut velit eget, con-vallis egestaseros.",
+      "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate reiciendis labore ad in sapiente culpa veniam at veritatis commodi numquam quos dolores nam quas quia tempora, corporis debitis quae cum!",
+      "id": "1"
+    },
+    {
+      "name": "DELICIOUS FOOD",
+      "img": "./assets/img/intro-02.jpg",
+      "des": "Aliquam eget aliquam magna, quis posuere risus ac justo ipsum nibh urna",
+      "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate reiciendis labore ad in sapiente culpa veniam at veritatis commodi numquam quos dolores nam quas quia tempora, corporis debitis quae cum!",
+      "id": "2"
+    },
+    {
+      "name": "RED WINES YOU LOVE",
+      "img": "./assets/img/intro-04.jpg",
+      "des": "Sed ornare ligula eget tortor tempor, quis porta tellus dictum.",
+      "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate reiciendis labore ad in sapiente culpa veniam at veritatis commodi numquam quos dolores nam quas quia tempora, corporis debitis quae cum!",
+      "id": "3"
+    }
+  ]
+}
