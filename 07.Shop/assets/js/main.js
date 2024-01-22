@@ -10,7 +10,7 @@ getData();
 function drawCards(arr) {
   cards.innerHTML = "";
   arr.forEach((element) => {
-    const card = document.querySelector("div");
+    const card = document.createElement("div");
     card.className = "card";
     card.innerHTML += `
         <div class="image">
@@ -28,3 +28,11 @@ function drawCards(arr) {
     cards.append(card);
   });
 }
+const menuIcon = document.querySelector(".fa-solid");
+const navBar = document.querySelector("nav");
+menuIcon.addEventListener("click", function () {
+  navBar.classList.toggle("show");
+  this.classList.contains("fa-bars")
+    ? (this.className = "fa-solid fa-x")
+    : (this.className = "fa-solid fa-bars");
+});

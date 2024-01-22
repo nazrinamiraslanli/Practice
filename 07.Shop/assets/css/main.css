@@ -28,7 +28,7 @@ header .header {
   align-items: center;
   justify-content: space-between;
 }
-header .header i {
+header .header .menu {
   display: none;
 }
 header .header nav ul {
@@ -44,11 +44,32 @@ header .header nav ul li a:hover {
   color: rgb(244, 54, 160);
 }
 @media screen and (max-width: 767px) {
-  header .header nav ul {
+  header .header nav {
+    background-color: rgb(245, 127, 192);
     display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 100%;
   }
-  header .header i {
+  header .header nav ul {
+    padding: 3rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  header .header nav.show {
+    display: flex;
+  }
+  header .header .menu {
     display: block;
+  }
+  header .header .menu .fa-solid {
+    color: white;
+    font-size: 18px;
   }
 }
 
@@ -467,5 +488,246 @@ header .header nav ul li a:hover {
     width: 80%;
     align-items: center;
     justify-content: center;
+  }
+}
+
+#section-table {
+  background-color: rgb(247, 114, 187);
+  padding: 3rem 0;
+  padding-top: 100px;
+}
+#section-table .section-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+#section-table .section-table form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+}
+#section-table .section-table form input {
+  padding: 10px 15px;
+  width: 300px;
+}
+#section-table .section-table form .submit {
+  padding: 10px 15px;
+  width: 150px;
+  background: transparent;
+  border: 2px solid green;
+  color: green;
+}
+#section-table .section-table form .submit:hover {
+  background-color: green;
+  color: white;
+}
+#section-table .section-table table,
+#section-table .section-table th,
+#section-table .section-table td {
+  border: 1px solid black;
+  padding: 10px 15px;
+  border-collapse: collapse;
+}
+#section-table .section-table table img,
+#section-table .section-table th img,
+#section-table .section-table td img {
+  width: 100px;
+}
+#section-table .section-table .input .search {
+  padding: 10px 15px;
+  width: 300px;
+}
+#section-table .section-table .input .sort {
+  padding: 10px 15px;
+  width: 150px;
+  background: transparent;
+  border: 2px solid red;
+  color: red;
+}
+#section-table .section-table .input .sort:hover {
+  background-color: red;
+  color: white;
+}
+
+#section-product {
+  padding: 3rem 0;
+}
+#section-product .section-product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+}
+#section-product .section-product .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+#section-product .section-product .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 40px;
+}
+#section-product .section-product .bottom .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  gap: 5px;
+}
+#section-product .section-product .bottom .box .image {
+  width: 35%;
+}
+#section-product .section-product .bottom .box .text {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+#section-product .section-product .bottom .box .text h6 {
+  font-size: 18px;
+}
+@media screen and (max-width: 767px) {
+  #section-product .section-product .bottom .box {
+    width: 45%;
+  }
+}
+
+footer {
+  padding: 3rem 0;
+  background-color: rgb(34, 34, 34);
+}
+footer .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+footer .footer .top {
+  display: flex;
+  width: 100%;
+  gap: 40px;
+}
+footer .footer .top .box {
+  display: flex;
+  width: 23%;
+  flex-direction: column;
+  gap: 25px;
+}
+footer .footer .top .box h2 {
+  font-size: 22px;
+  color: white;
+}
+footer .footer .top .box .text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer .top .box .text .icon {
+  display: flex;
+  gap: 10px;
+}
+footer .footer .top .box .text .icon i {
+  color: white;
+}
+footer .footer .top .box .text .icon i:hover {
+  color: rgb(244, 54, 160);
+}
+footer .footer .top .box .text .inp {
+  position: relative;
+}
+footer .footer .top .box .text .inp input {
+  padding: 10px 15px;
+  border: none;
+  width: 100%;
+}
+footer .footer .top .box .text .inp i {
+  position: absolute;
+  right: 0;
+  padding: 10px 15px;
+  color: white;
+  background-color: rgb(244, 54, 160);
+}
+footer .footer .top .box .text p {
+  max-width: 200px;
+  color: RGB(119, 119, 119);
+  font-size: 18px;
+}
+footer .footer .bottom p {
+  text-align: center;
+  color: RGB(119, 119, 119);
+}
+footer .footer .bottom p i {
+  color: rgb(244, 54, 160);
+}
+footer .footer .bottom p a {
+  color: rgb(244, 54, 160);
+}
+@media screen and (max-width: 767px) {
+  footer .footer .top {
+    flex-wrap: wrap;
+  }
+  footer .footer .top .box {
+    width: 45%;
+  }
+}
+
+#section-details {
+  background-color: rgb(207, 177, 177);
+  padding: 3rem 0;
+  padding-top: 100px;
+}
+#section-details .section-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#section-details .section-details .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+#section-details .section-details .box .image {
+  width: 500px;
+}
+#section-details .section-details .box .image img {
+  width: 100%;
+}
+#section-details .section-details .box .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+}
+#section-details .section-details .box .text span {
+  text-align: center;
+}
+#section-details .section-details .box .text .goback {
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: white;
+  border: 1px solid RGB(214, 28, 34);
+  background-color: RGB(214, 28, 34);
+}
+#section-details .section-details .box .text .goback:hover {
+  background: transparent;
+  color: RGB(214, 28, 34);
+}
+@media screen and (max-width: 767px) {
+  #section-details .section-details .box {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=main.css.map */
