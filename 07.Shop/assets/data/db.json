@@ -1,0 +1,32 @@
+{
+  "cards": [
+    {
+      "name": "Long Sleeve shirt",
+      "img": "./assets/img/l5.jpg",
+      "price": "150",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eligendi veniam nihil iusto libero nesciunt optio impedit quod cupiditate excepturi odio qui incidunt consectetur, quisquam ex sit quae corporis cumque.",
+      "id": "1"
+    },
+    {
+      "name": "Long Sleeve shirt",
+      "img": "./assets/img/l6.jpg",
+      "price": "150",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eligendi veniam nihil iusto libero nesciunt optio impedit quod cupiditate excepturi odio qui incidunt consectetur, quisquam ex sit quae corporis cumque.",
+      "id": "1"
+    },
+    {
+      "name": "Long Sleeve shirt",
+      "img": "./assets/img/l7.jpg",
+      "price": "150",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eligendi veniam nihil iusto libero nesciunt optio impedit quod cupiditate excepturi odio qui incidunt consectetur, quisquam ex sit quae corporis cumque.",
+      "id": "1"
+    },
+    {
+      "name": "Long Sleeve shirt",
+      "img": "./assets/img/l8.jpg",
+      "price": "150",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eligendi veniam nihil iusto libero nesciunt optio impedit quod cupiditate excepturi odio qui incidunt consectetur, quisquam ex sit quae corporis cumque.",
+      "id": "1"
+    }
+  ]
+}
