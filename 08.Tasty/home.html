@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.5/axios.min.js"
+      integrity="sha512-TjBzDQIDnc6pWyeM1bhMnDxtWH0QpOXMcVooglXrali/Tj7W569/wd4E8EDjk1CwOAOPSJon1VfcEt1BI4xIrA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script defer src="./assets/js/main.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header">
+          <a href="#"><h1>Tasty</h1></a>
+          <nav>
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="#">Specialties</a></li>
+              <li><a href="#">Reservation</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </header>
+    <section id="section-carusel">
+      <div class="section-carusel">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active carousel-box">
+              <img
+                src="./assets/img/bg_1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block carousel-text">
+                <h5>Book a table for yourself at a time convenient for you</h5>
+                <button class="book">Book a table</button>
+              </div>
+            </div>
+            <div class="carousel-item carousel-box">
+              <img
+                src="./assets/img/bg_2.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block carousel-text">
+                <h5>Tasty & Delicious food</h5>
+                <button class="book">Book a table</button>
+              </div>
+            </div>
+            <div class="carousel-item carousel-box">
+              <img
+                src="./assets/img/bg_3.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block carousel-text">
+                <h5>Book a table for yourself at a time convenient for you</h5>
+                <button class="book">Book a table</button>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="section-chef">
+      <div class="container">
+        <div class="section-chef">
+          <div class="left">
+            <div class="image">
+              <img src="./assets/img/about-2.jpg" alt="" />
+            </div>
+          </div>
+          <div class="right">
+            <h5>ABOUT TASTY</h5>
+            <h2>Our chef cooks the most delicious food for you</h2>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean.
+            </p>
+            <p>
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia. It is a paradisematic country, in
+              which roasted parts of sentences fly into your mouth.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section-menu">
+      <div class="container">
+        <div class="section-menu">
+          <div class="top">
+            <h5>OUR MENU</h5>
+            <h2>Discover Our Exclusive Menu</h2>
+          </div>
+          <nav>
+            <ul>
+              <li><button class="main menu">Main</button></li>
+              <li><button class="desert menu">Desert</button></li>
+              <li><button class="drinks menu">Drinks</button></li>
+            </ul>
+          </nav>
+          <div class="boxs">
+            <!-- <div class="box">
+              <div class="image">
+                <img src="./assets/img/dish-7.jpg" alt="" />
+              </div>
+              <div class="text">
+                <h5>Grilled Beef with potatoes</h5>
+                <p>Meat, Potatoes, Rice, Tomatoe</p>
+              </div>
+              <div class="price">
+                <h1>$29</h1>
+              </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <img src="./assets/img/dish-7.jpg" alt="" />
+              </div>
+              <div class="text">
+                <h5>Grilled Beef with potatoes</h5>
+                <p>Meat, Potatoes, Rice, Tomatoe</p>
+              </div>
+              <div class="price">
+                <h1>$29</h1>
+              </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <img src="./assets/img/dish-7.jpg" alt="" />
+              </div>
+              <div class="text">
+                <h5>Grilled Beef with potatoes</h5>
+                <p>Meat, Potatoes, Rice, Tomatoe</p>
+              </div>
+              <div class="price">
+                <h1>$29</h1>
+              </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <img src="./assets/img/dish-7.jpg" alt="" />
+              </div>
+              <div class="text">
+                <h5>Grilled Beef with potatoes</h5>
+                <p>Meat, Potatoes, Rice, Tomatoe</p>
+              </div>
+              <div class="price">
+                <h1>$29</h1>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section-carusel2">
+      <div class="container">
+        <div class="section-carusel2">
+          <div class="top">
+            <h5>GUESTS SAYS</h5>
+            <h2>Our Satisfied Guests says</h2>
+          </div>
+
+          <div class="bottom">
+            <div class="boxses">
+              <div class="box">
+                <div class="image">
+                  <img src="./assets/img/person_1.jpg" alt="" />
+                </div>
+                <div class="text">
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Voluptatem vitae quas rerum cum, dolore non beatae tempora
+                    consequatur reiciendis id!
+                  </p>
+                  <h5>Dennis Green</h5>
+                  <p>Guests from Italy</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="image">
+                  <img src="./assets/img/person_1.jpg" alt="" />
+                </div>
+                <div class="text">
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Voluptatem vitae quas rerum cum, dolore non beatae tempora
+                    consequatur reiciendis id!
+                  </p>
+                  <h5>Dennis Green</h5>
+                  <p>Guests from Italy</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="image">
+                  <img src="./assets/img/person_1.jpg" alt="" />
+                </div>
+                <div class="text">
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Voluptatem vitae quas rerum cum, dolore non beatae tempora
+                    consequatur reiciendis id!
+                  </p>
+                  <h5>Dennis Green</h5>
+                  <p>Guests from Italy</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div class="box">
+            <h2>Tasty</h2>
+            <div class="text">
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div class="icon">
+                <i class="fa-brands fa-twitter"></i
+                ><i class="fa-brands fa-facebook"></i
+                ><i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <h2>Opening Hours</h2>
+            <div class="text">
+              <p>Monday: 08: - 22:00</p>
+              <p>Tuesday: 08: - 22:00</p>
+              <p>Wesnesday: 08: - 22:00</p>
+              <p>Thursday: 08: - 22:00</p>
+              <p>Friday: 08: - 22:00</p>
+              <p>Saturday: 08: - 22:00</p>
+              <p>Sunday: 08: - 22:00</p>
+            </div>
+          </div>
+          <div class="box">
+            <h2>Contact Information</h2>
+            <div class="text">
+              <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+              <p>+ 1235 2355 98</p>
+              <p>info@yoursite.com</p>
+              <p>info@yoursite.com</p>
+            </div>
+          </div>
+          <div class="box">
+            <h2>Newsletter</h2>
+            <div class="text">
+              <p>
+                Far far away, behind the word mountains, far from the countries.
+              </p>
+              <input type="text" placeholder="Subschber">
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,412 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none !important;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+@media screen and (max-width: 1199px) {
+  .container {
+    padding: 0 5%;
+  }
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+  padding: 1.5rem 0;
+}
+header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header h1 {
+  color: white;
+  font-size: 20px;
+  border: 2px solid white;
+  padding: 5px;
+}
+header .header i {
+  display: none;
+}
+header .header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+header .header nav ul li a {
+  color: white;
+  font-size: 16px;
+}
+@media screen and (max-width: 767px) {
+  header .header nav ul li a {
+    display: none;
+  }
+  header .header i {
+    display: block;
+    color: white;
+  }
+}
+
+#section-carusel {
+  height: 100vh;
+}
+#section-carusel .section-carusel .carousel-box {
+  height: 100vh;
+  position: relative;
+}
+#section-carusel .section-carusel .carousel-box .carousel-text {
+  position: absolute;
+  bottom: 35%;
+}
+#section-carusel .section-carusel .carousel-box .carousel-text h5 {
+  font-size: 72px;
+  font-weight: 400;
+}
+#section-carusel .section-carusel .carousel-box .carousel-text .book {
+  padding: 10px 15px;
+  width: 150px;
+  border: 2px solid white;
+  color: white;
+  background: transparent;
+}
+#section-carusel .section-carusel .carousel-box .carousel-text .book:hover {
+  background-color: white;
+  color: rgb(39, 39, 39);
+}
+
+#section-chef {
+  height: 100vh;
+  padding: 2.5rem 0;
+}
+#section-chef .section-chef {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 50px;
+}
+#section-chef .section-chef .left {
+  width: 45%;
+}
+#section-chef .section-chef .left .image {
+  width: 100%;
+}
+#section-chef .section-chef .left .image img {
+  width: 100%;
+}
+#section-chef .section-chef .right {
+  width: 45%;
+}
+#section-chef .section-chef .right h5 {
+  color: RGB(139, 139, 146);
+  font-size: 16px;
+}
+#section-chef .section-chef .right h2 {
+  color: rgb(44, 44, 44);
+}
+#section-chef .section-chef .right p {
+  color: RGB(139, 139, 146);
+}
+
+#section-menu {
+  padding: 2.5rem;
+}
+#section-menu .section-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+#section-menu .section-menu .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+}
+#section-menu .section-menu .top h5 {
+  color: RGB(139, 139, 146);
+  font-size: 16px;
+}
+#section-menu .section-menu .top h2 {
+  color: rgb(7, 7, 7);
+}
+#section-menu .section-menu nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#section-menu .section-menu nav ul li .menu {
+  color: RGB(139, 139, 146);
+  padding: 10px 15px;
+  background-color: white;
+  box-shadow: 8px 10px 8px grey;
+  border: none;
+}
+#section-menu .section-menu nav ul li .menu:hover {
+  color: black;
+  background-color: rgb(255, 180, 0);
+}
+#section-menu .section-menu .boxs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+#section-menu .section-menu .boxs .box {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background-color: white;
+  box-shadow: 8px 10px 8px grey;
+}
+#section-menu .section-menu .boxs .box .image {
+  width: 120px;
+  height: 100px;
+  border-radius: 50%;
+}
+#section-menu .section-menu .boxs .box .image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+#section-menu .section-menu .boxs .box .text h5 {
+  color: rgb(39, 39, 39);
+}
+#section-menu .section-menu .boxs .box .text p {
+  color: RGB(139, 139, 146);
+}
+#section-menu .section-menu .boxs .box .price h1 {
+  color: rgb(39, 39, 39);
+}
+#section-menu .section-menu .boxs .box:hover {
+  background-color: rgb(255, 180, 0);
+}
+
+#section-form {
+  padding: 100px 0;
+  background-color: rgb(255, 225, 127);
+}
+#section-form .section-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#section-form .section-form form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+#section-form .section-form form input {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  width: 400px;
+}
+#section-form .section-form form .submit {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  background-color: green;
+}
+#section-form .section-form form .submit:hover {
+  background-color: rgb(28, 58, 28);
+}
+
+#section-sort {
+  padding: 100px 0;
+}
+#section-sort .section-sort {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#section-sort .section-sort input {
+  padding: 10px 15px;
+  border: 1px solid orange;
+  border-radius: 8px;
+  width: 400px;
+}
+#section-sort .section-sort .sort {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  background-color: rgb(224, 168, 12);
+}
+#section-sort .section-sort .sort:hover {
+  background-color: rgb(214, 103, 28);
+}
+
+#section-table {
+  padding: 100px 0;
+}
+#section-table .section-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#section-table .section-table table,
+#section-table .section-table th,
+#section-table .section-table td {
+  border: 1px solid black;
+  padding: 10px 15px;
+  background-color: rgb(250, 223, 149);
+}
+#section-table .section-table table img,
+#section-table .section-table th img,
+#section-table .section-table td img {
+  width: 120px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+#section-carusel2 {
+  padding: 2.5rem 0;
+}
+#section-carusel2 .section-carusel2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+}
+#section-carusel2 .section-carusel2 .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+}
+#section-carusel2 .section-carusel2 .top h5 {
+  color: RGB(139, 139, 146);
+  font-size: 16px;
+}
+#section-carusel2 .section-carusel2 .top h2 {
+  color: rgb(7, 7, 7);
+}
+#section-carusel2 .section-carusel2 .bottom {
+  padding: 3rem 0;
+}
+#section-carusel2 .section-carusel2 .bottom .boxses {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  padding: 60px 0;
+}
+#section-carusel2 .section-carusel2 .bottom .boxses .box {
+  width: 30%;
+  height: 400px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  gap: 50px;
+  padding-top: 50px;
+}
+#section-carusel2 .section-carusel2 .bottom .boxses .box:hover {
+  box-shadow: 10px 10px 10px rgb(170, 169, 169);
+}
+#section-carusel2 .section-carusel2 .bottom .boxses .box .image {
+  width: 150px;
+  position: absolute;
+  top: -70px;
+  height: 150px;
+  padding-bottom: 20px;
+}
+#section-carusel2 .section-carusel2 .bottom .boxses .box .image img {
+  width: 100%;
+  border-radius: 50%;
+}
+#section-carusel2 .section-carusel2 .bottom .boxses .box .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+#section-carusel2 .section-carusel2 .bottom .boxses .box .text p {
+  color: RGB(139, 139, 146);
+  text-align: center;
+}
+#section-carusel2 .section-carusel2 .bottom .boxses .box .text i {
+  color: yellow;
+}
+
+footer {
+  background-color: rgb(39, 39, 43);
+  padding: 100px 0;
+  height: 100vh;
+}
+footer .footer {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 30px;
+  color: white;
+}
+footer .footer .box {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+footer .footer .box .text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+footer .footer .box .text p {
+  color: rgb(97, 96, 96);
+}
+footer .footer .box .text p:hover {
+  color: white;
+}
+footer .footer .box .text input {
+  padding: 10px 15px;
+  border: 2px solid rgb(97, 96, 96);
+  color: rgb(97, 96, 96);
+  width: 200px;
+  background: transparent;
+}
+footer .footer .box .text .icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+footer .footer .box .text .icon i {
+  padding: 20px;
+  font-size: 20px;
+  border: 2px solid rgb(97, 96, 96);
+  border-radius: 50%;
+  color: rgb(97, 96, 96);
+}
+footer .footer .box .text .icon i:hover {
+  color: white;
+  border: 2px solid white;
+}/*# sourceMappingURL=main.css.map */

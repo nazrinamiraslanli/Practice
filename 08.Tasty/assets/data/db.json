@@ -1,0 +1,51 @@
+{
+  "cards": [
+    {
+      "name": "aGrilled Beef with potatoes",
+      "des": "Meat, Potatoes, Rice, Tomatoe",
+      "price": "25",
+      "img": "./assets/img/dish-11.jpg",
+      "category": "main",
+      "id": "12"
+    },
+    {
+      "name": "Grilled Beef with potatoes",
+      "des": "Meat, Potatoes, Rice, Tomatoe",
+      "price": "29",
+      "img": "./assets/img/dish-7.jpg",
+      "category": "desert",
+      "id": "13"
+    },
+    {
+      "name": "Grilled Beef with potatoes",
+      "des": "Meat, Potatoes, Rice, Tomatoe",
+      "price": "14",
+      "img": "./assets/img/dish-10.jpg",
+      "category": "drink",
+      "id": "13"
+    },
+    {
+      "name": "Temporibus ad in qui",
+      "des": "Ut sed quod eum est ",
+      "price": "69",
+      "category": "drink",
+      "img": "./assets/img/dish-11.jpg",
+      "id": "88"
+    },
+    {
+      "name": "Temporibus ad in qui",
+      "des": "Temporibus ad in qui",
+      "price": "40",
+      "category": "drink",
+      "img": "./assets/img/dish-7.jpg",
+      "id": "66"
+    },
+    {
+      "name": "nzrn",
+      "des": "Dolor aut et fugit ",
+      "price": "21",
+      "img": "",
+      "id": "nwn9lam"
+    }
+  ]
+}
